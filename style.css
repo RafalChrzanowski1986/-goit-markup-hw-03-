@@ -9,7 +9,7 @@
   --letter-spacing: 0.03em;
   --letter-spacing-big: 0.06em;
 }
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: var(--black-color);
 }
@@ -18,8 +18,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-{margin: 0px; padding: 0px;}
+h6 {
+  margin: 0px;
+}
 
 .navigation_logo {
   text-decoration: none;
@@ -41,6 +42,9 @@ h6,
   color: var(--white-color);
 }
 /*=====HEADER=====*/
+.container {
+  width: 1200px;
+}
 
 .header {
   font-weight: 700;
@@ -52,7 +56,20 @@ h6,
 
   color: #2196f3;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.navigation-list-item::not(:last-child) {
+  margin-right: 46px;
+  
+}
+
+
 .navigation a {
+  
+  align-items: center;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -120,6 +137,9 @@ h6,
   border-radius: 4px;
 }
 .list {
+  display: flex;
+  justify-content: space-between;
+  gap: calc(10% / 3);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
