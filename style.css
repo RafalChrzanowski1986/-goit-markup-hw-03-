@@ -43,18 +43,12 @@ h6 {
 }
 /*=====HEADER=====*/
 .container {
-  width: 1200px;
+ max-width: 1200px;
+ margin: 0 auto;
 }
 
 .header {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-
-  /* identical to box height */
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
+  justify-content: space-between
 }
 
 .header {
@@ -110,6 +104,10 @@ h6 {
 /*=====END HEADER=====*/
 
 /*=====MAIN=====*/
+.wrapper {
+
+}
+
 .upper {
   font-weight: 900;
   font-size: 44px;
@@ -138,8 +136,6 @@ h6 {
 }
 .list {
   display: flex;
-  justify-content: space-between;
-  gap: calc(10% / 3);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
