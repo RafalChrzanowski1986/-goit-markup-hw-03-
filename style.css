@@ -105,7 +105,8 @@ h6 {
 
 /*=====MAIN=====*/
 .wrapper {
-
+margin: 93px;
+justify-content: space-between
 }
 
 .upper {
