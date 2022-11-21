@@ -171,7 +171,8 @@ justify-content: space-between
   color: #757575;
   list-style-type: none;
 }
-.section {
+.sectionlist {
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -179,6 +180,14 @@ justify-content: space-between
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section{
+  padding: 94px 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
 .name {
   font-weight: 500;
   font-size: 16px;
