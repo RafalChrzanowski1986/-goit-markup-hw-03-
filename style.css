@@ -14,6 +14,7 @@
   color: var(--black-color);
 }
 h1,
+h2,
 h3,
 h4,
 h5,
@@ -21,6 +22,11 @@ h6 {
   margin: 0px;
 }
 
+.header-contact{
+
+  display: flex; 
+  justify-content: space-between;
+}
 .section-header {
 margin-top: 32px;
 margin-bottom: 32px;
