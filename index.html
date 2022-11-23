@@ -15,27 +15,32 @@
 <body> 
 
  <header class="header">
-  <div class="container">
+  <div class="container navbar-wrapper">
+
   <nav class="navigation">
     
           <a href="index.html" class="navigation_logo"> <span class="web">Web</span
             ><span class="studio">Studio</span></a>
-         <a href="#">Agencja</a>
-          <a href="Portfolio.html">Portfolio</a>
-          <a href="#">Kontakt</a>
+         <ul class="link-list">
+            <li><a href="#">Agencja</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+         <li><a href="#">Kontakt</a></li>
+        </ul>
         </nav>
       
-        <div class="container">
+        <div class="contact-wrapper">
         <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="contact" href="tel:+48111111111">+48111111111</a>
       </div>
       </div>
   </header>
-    <div class="container">
+    
     <main>
-      
+      <div class="grey-box">
+        <div class="box">
         <h1 class="upper">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button">Zamów usługę</button>
+      </div>
       </div>
     
     <section class="section">
@@ -70,9 +75,9 @@
     </section>
     <section class="section no-padding-top"> 
           <div class="container">
-          <h2 class="sectionlist">Czym się zajmujemy</h2>
+          <h2 class="section-heading">Czym się zajmujemy</h2>
           <ul class="list">
-            <li>
+            <li class="work-item">
               <img
                 src="images/img(1).jpg"
                 alt="close-up-image-programer-working-his-desk-office_1098-18707.jpg"
@@ -80,7 +85,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="images/img(2).jpg"
                 alt="web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
@@ -88,7 +93,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="images/img(3).jpg"
                 alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
@@ -101,8 +106,8 @@
       </section>
       <section class="section no-padding-top">
         <div class="container">
-          <h2 class="sectionlist">Nasz zespół</h2>
-          <ul class="main list">
+          <h2 class="section-heading">Nasz zespół</h2>
+          <ul class="list">
             <li>
               <img
                 src="images/img(4).jpg"
@@ -146,22 +151,24 @@
           </ul>
         </div>
       </section>
-      </div>
+      
     </main>
   
-    <div class="container"></div>
     <footer class="footer">
-       <h2>
-        <a href="index.html" class="navigation_logo"> <span class="web">Web</span
-          ><span class="studio2">Studio</span></a>
-      </h2>
+       
     </div>
       <div class="container">
-        <address class="contact_white">m.Warszawa, Aleje Jerozolimskie 21</address>
-      
-        <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        
+          <a href="index.html" class="navigation_logo"> <span class="web">Web</span
+            ><span class="studio2">Studio</span></a>
        
-        <a class="contact"  href="tel:+48111111111">+48111111111</a>
+        <address class="footer-address"><ul><li>m.Warszawa, Aleje Jerozolimskie 21</li>
+          <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+       
+        <li><a class="contact"  href="tel:+48111111111">+48111111111</a></li></ul>
+        </address>
+      
+        
       
     </footer>
   </div>
