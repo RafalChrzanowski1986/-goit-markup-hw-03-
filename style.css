@@ -69,6 +69,10 @@ margin-bottom: 32px;
   margin-right: 46px;
   
 }
+.navigation{
+  display: flex; 
+  justify-content: space-between;
+}
 
 
 .navigation a {
