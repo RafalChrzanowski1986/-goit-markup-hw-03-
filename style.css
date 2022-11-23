@@ -273,7 +273,9 @@ ul {
   list-style-type: none;
   gap: 30px;
 }
-
+.portfolio-buttons{
+  margin-bottom: 50px;
+}
 /*=====END MAIN=====*/
 /*=====FOOTER=======*/
 .footer {
