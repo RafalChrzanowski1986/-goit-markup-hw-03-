@@ -289,6 +289,13 @@ ul {
 }
 /*=====END FOOTER=======*/
 
+
+/*========PORTFOLIO=====*/
+
+.main-list{
+  margin-bottom: 50px;
+}
+
 .button-portfolio {
   font-family: Roboto;
   border: none;
@@ -310,3 +317,4 @@ ul {
   color: var(--white-color);
   background-color: #2196f3;
 }
+
