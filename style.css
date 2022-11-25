@@ -208,7 +208,9 @@ ul {
 }
 
 .list-portfolio-brands{
-  flex-wrap: wrap;
+  display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .list .title {
@@ -330,5 +332,5 @@ ul {
 }
 
 .portfolio-wrap{
-  padding: 20px 24px
+   /* padding: 20px 24px; */
 }
