@@ -90,6 +90,7 @@ ul {
 .header {
   display: flex;
   align-items: center;
+  border: 1px solid #ECECEC;
 }
 .navigation-list-item::not(:last-child) {
   margin-right: 46px;
@@ -188,6 +189,7 @@ ul {
   border-radius: 4px;
   width: fit-content;
   margin-top: 30px;
+  padding: 10px 41px 10px 42px;
 }
 .work-item {
   height: 294px;
@@ -202,7 +204,13 @@ ul {
   color: #757575;
   list-style-type: none;
   justify-content: center;
+  
 }
+
+.list-portfolio-brands{
+  flex-wrap: wrap;
+}
+
 .list .title {
   font-weight: 700;
   font-size: 14px;
