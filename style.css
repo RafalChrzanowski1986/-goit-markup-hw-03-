@@ -56,7 +56,7 @@ ul {
   font-weight: 700;
   line-height: 1.38;
   margin-right: 93px;
-  margin-bottom: 20px;
+
   display: block;
 }
 
@@ -98,6 +98,7 @@ ul {
 .navigation {
   display: flex;
   width: fit-content;
+  align-items: center
 }
 
 .contact-wrapper {
