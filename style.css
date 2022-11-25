@@ -17,6 +17,8 @@ body {
 .link-list {
   display: flex;
   gap: 46px;
+  align-items: center;
+  
 }
 h1,
 h2,
@@ -150,6 +152,7 @@ ul {
 .grey-box {
   background: #2f303a;
   max-width: 1600px;
+  margin: 0 auto;
 }
 .upper {
   font-weight: 900;
@@ -318,3 +321,6 @@ ul {
   background-color: #2196f3;
 }
 
+.portfolio-wrap{
+  padding: 20px 24px
+}
