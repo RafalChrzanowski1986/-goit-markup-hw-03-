@@ -222,16 +222,7 @@ ul {
   color: #212121;
   list-style-type: none;
 }
-.brand {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-  list-style-type: none;
-  text-align: justify;
-}
+
 .list-portfolio {
   font-weight: 400;
   font-size: 16px;
@@ -239,6 +230,7 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
   list-style-type: none;
+   /* padding: 20px 24px; */
 }
 .section-heading {
   font-weight: 700;
@@ -332,5 +324,13 @@ ul {
 }
 
 .portfolio-wrap{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  list-style-type: none;
+  text-align: justify;
    /* padding: 20px 24px; */
 }
