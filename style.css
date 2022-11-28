@@ -105,14 +105,13 @@ ul {
   gap: 50px;
   display: flex;
 }
-.navigation a {
+.navigation .link-list a {
   align-items: center;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 .navigation a:hover,
