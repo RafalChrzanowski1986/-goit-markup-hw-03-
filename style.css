@@ -327,10 +327,10 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  
   color: #212121;
   list-style-type: none;
   text-align: justify;
    /* padding: 20px 24px; */
 }
+
