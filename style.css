@@ -58,6 +58,7 @@ ul {
   margin-right: 93px;
 
   display: block;
+  margin-bottom: 20px;
 }
 
 .web {
@@ -334,3 +335,9 @@ ul {
   padding: 20px 24px; 
 }
 
+.portfolio p{
+  margin-top: 4px;
+}
+.index p{
+  margin-top: 10px;
+}
