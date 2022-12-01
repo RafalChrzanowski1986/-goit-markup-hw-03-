@@ -215,6 +215,7 @@ ul {
   display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center
 }
 
 .list .title {
@@ -230,16 +231,30 @@ ul {
 .list-portfolio {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
   list-style-type: none;
-   /* padding: 20px 24px; */
+  margin-top: 4px;
+  margin-bottom: 20px;
+  line-height: 1.875;
+  text-align: center;
+ 
 }
+.name-brand {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.52;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  list-style-type: none;
+}
+
 .section-heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -256,30 +271,27 @@ ul {
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.52;
+  line-height: 1.04;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-top: 30px;
-margin-bottom: 10px;
+  margin-bottom: 10px;
 
 }
 .position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
 }
-.name-brand {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 0.52;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
+
 
 .list {
   list-style-type: none;
@@ -344,10 +356,7 @@ margin-bottom: 10px;
   padding: 20px 24px; 
 }
 
-.portfolio p{
-  margin-top: 4px;
-  line-height: 2;
-}
+
 
 .index p{
   margin-top: 10px;}
