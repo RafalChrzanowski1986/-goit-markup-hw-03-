@@ -59,7 +59,7 @@ ul {
   margin-right: 93px;
 
   display: block;
-  margin-bottom: 20px;
+  
 }
 
 .web {
@@ -257,7 +257,7 @@ ul {
 .name-brand {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.52;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: #212121;
   margin-top: 20px;
