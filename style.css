@@ -212,6 +212,18 @@ ul {
   
 }
 
+.text{
+   display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #757575;
+  list-style-type: none;
+  justify-content: center;
+  gap: 8px;
+}
+
 .list-portfolio-brands{
   display: flex;
     flex-wrap: wrap;
@@ -300,6 +312,8 @@ ul {
 .list {
   list-style-type: none;
   gap: 30px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .portfolio-buttons{
   margin-bottom: 50;
@@ -367,3 +381,10 @@ ul {
 .index p{
   margin-top: 10px;}
 
+.footer-portfolio
+{
+  background-color: #2f303a;
+  width: 100%;
+  padding: 60px 0px;
+  margin-top: 94px;
+}
