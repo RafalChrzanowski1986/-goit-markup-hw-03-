@@ -61,6 +61,9 @@ ul {
   display: block;
   
 }
+.section {
+  padding: 94px 0;
+}
 
 .web {
   color: var(--accent-color);
@@ -216,7 +219,7 @@ ul {
    display: flex;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   list-style-type: none;
@@ -274,13 +277,7 @@ ul {
   color: #212121;
   margin-bottom: 50px;
 }
-.page-top {
-  margin-top: 94px;
-}
 
-.no-padding-top {
-  padding-top: 0;
-}
 
 .name {
   font-weight: 500;
@@ -312,8 +309,7 @@ ul {
 .list {
   list-style-type: none;
   gap: 30px;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  
 }
 .portfolio-buttons{
   margin-bottom: 50;
@@ -329,10 +325,18 @@ ul {
 .footer-address li:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.footer-address{
+  margin-top: 20px;
+}
 /*=====END FOOTER=======*/
 
 
 /*========PORTFOLIO=====*/
+
+.sectio{
+  margin-top: 94px;
+}
 
 .main-list{
   margin-bottom: 50px;
@@ -386,5 +390,12 @@ ul {
   background-color: #2f303a;
   width: 100%;
   padding: 60px 0px;
-  margin-top: 94px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
 }
